@@ -20,6 +20,9 @@ public class sumDiagonal {
 
         System.out.println("Sum of the elements in the major diagonal is " + sumMajorDiagonal(array));
 
+        //close
+        input.close();
+
     }
 
     public static double sumMajorDiagonal(double[][] m){

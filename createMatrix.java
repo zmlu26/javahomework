@@ -13,6 +13,9 @@ public class createMatrix {
         //调用方法
         printMatrix(n);
 
+        //close
+        input.close();
+
     }
 
     public static void printMatrix(int n){

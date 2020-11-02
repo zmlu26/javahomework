@@ -16,6 +16,9 @@ public class findMin {
         }
 
         System.out.println("在整数数组中，最小元素的下标为" + indexOfSmallestElement(array));
+
+        //close
+        input.close();
     }
 
     public static int indexOfSmallestElement(double[] array){
